@@ -1,0 +1,1821 @@
+ body { 
+            margin:0;
+			padding:0;
+			font-family: Arial, Verdana, Helvetica, sans-serif; 
+			font-size: 14px; 
+			line-height: 25px; 
+			color:#fff; 
+			text-align: justify; 
+			background:url('../grey.jpg') no-repeat center center fixed ;  
+	  }
+	
+	
+	#background{
+	 background: url("../grey.jpg"); 
+	background-position: center top; 
+	background-repeat:no-repeat; 
+	
+	}
+		
+#page #header{
+   
+	height:226px;
+	margin:0 auto;
+	width:960px;
+}
+	 
+#page #header .header{
+    height:226px;
+}	 
+
+#page #header .header a#logo{
+    position:relative;
+    left: 200px;
+		text-decoration:none;
+}
+
+#page #header .header a#logo img{
+   border:0;
+}
+
+#page #header .header div.slogan{
+   width:685px;
+   margin-left:275px;
+   height:135px;
+   margin-top:-120px;
+   text-align:left;
+   color:#f96d0f;
+}
+
+#page #header .header div.slogan h2{
+  height:45px;
+  width:460px;
+  background-color:#6f05a4;
+  font-weight:normal;
+  margin:0 auto;
+  padding:0;
+  line-height:45px;
+  font-size:25px;
+  font-family:Helvetica;
+  color:#ffffff;
+  
+  
+}
+
+#page #header .header div.slogan h2 span{
+  font-weight:bold;
+  color:#ffffff;
+  font-size:25px;
+  font-family:Helvetica;
+}
+
+#page #header .header div.slogan h3{
+  height:45px;
+  width:182px;
+  background-color:#fd006d;
+  color:#ffffff;
+  font-weight:normal;
+  font-style:italic;
+  padding:0;
+  margin:5px 0 0 30px;
+  line-height:45px;
+  float:left;
+  font-size:25px;
+  font-family:Helvetica;
+}
+
+#page #header .header div.slogan h4{
+  margin:5px 0 0 0;
+  padding:0;
+  width:400px;
+  height:45px;
+  line-height:45px;
+  float:left;
+  font-size:25px;
+  font-family:Helvetica;
+}
+
+#page #header .header div.slogan h4 span{
+  font-weight:bold;
+  color:#04efed;
+  font-style:italic;
+  font-size:25px;
+  font-family:Helvetica;
+}
+
+
+#page #body{
+  width:960px;
+  margin:0 auto;
+  overflow:hidden;
+}
+
+/***********Start of Sidebar Style*******************/
+
+#page #body #sidebar{
+  width:170px;
+  float:left;
+  margin:56px 0 0 0;
+}
+
+#page #body #sidebar ul.navigation{
+  list-style-type:none;
+  margin:65px 0 0 0;
+  padding:0;
+}
+
+ ul.navigation li{
+  width:auto;
+  padding: 10px  0;
+  margin-top:-7px;
+  height:auto;
+}
+
+#page #body #sidebar ul.navigation li a{
+  text-decoration:none;
+  padding: 10px  10px 10px  10px;
+  background-color:#232323;
+  color:#ffffff;
+  font-size:17px;
+  width:auto;
+  height:auto;
+  font-family:Helvetica;
+  
+}
+
+#page #body #sidebar ul.navigation li a:hover{
+  background-color:#fcf100;
+  color:#b83359;
+  position:relative;
+  z-index:20;
+}
+
+
+#page #body #sidebar ul.navigation li a.active{
+  background-color:#fcf100;
+  color:#b83359;
+  position:relative;
+  z-index:900;
+}
+
+#page #body #sidebar ul.navigation li a span{
+  position:relative;
+  left:10px;
+  margin:-10px 0 0 0px;
+  padding: 0 21px 0 0px;
+  line-height:15px;
+  display:inline-block;
+  background:none;
+  
+  
+}
+
+#page #body #sidebar ul.navigation li a#odd{
+  height:50px; 
+  width:100px; 
+  display:inline-block; 
+  margin-top:-10px; 
+  margin-bottom:-10px;
+}
+
+
+#page #body #sidebar .connect{
+  width:100px;
+  height:65px;
+  background-color:#242424;
+  text-align:center;
+}
+
+#page #body #sidebar .connect span{
+  font-style:italic;
+  display:block;
+  color:#4d4d4d;
+  margin:5px 0;
+  padding-top:5px;
+}
+
+#page #body #sidebar .connect a{
+  text-decoration:none;
+}
+#page #body #sidebar .connect a.facebook{
+  display:inline-block;
+  background: url("../images/icon.gif"); 
+  background-position: 0 0; width: 20px; height: 19px;
+  background-repeat:no-repeat;   
+  width:20px;
+  height:19px;
+}
+#page #body #sidebar .connect a.facebook:hover{
+opacity:0.4;
+filter:alpha(opacity=40);
+
+}
+
+#page #body #sidebar .connect a.twitter{
+  display:inline-block;
+  background: url("../images/icon.gif"); 
+  background-position: 0 -69px; width: 27px; height: 19px;
+  background-repeat:no-repeat;   
+  width:27px;
+  height:19px;
+}
+
+#page #body #sidebar .connect a.twitter:hover{
+  opacity:0.4;
+filter:alpha(opacity=40);
+}
+
+/***********End of Sidebar Style*******************/
+
+
+#page #body #content{
+  width:790px;
+  float:left;
+  overflow:hidden;
+}
+
+
+/************* Start of Featured Dance ID********************/
+#page #body #content ul#featured {
+  list-style-type:none;
+  margin:56px 0 0 0;
+  padding:0;  
+  
+}
+
+#page #body #content ul#featured li.primary{
+   background: url("../images/bg-hip-hop.jpg"); 
+   background-position: right; 
+   background-repeat:no-repeat;   
+   width:790px;
+   height:578px;
+   list-style-type:none;
+}
+
+#page #body #content ul#featured li.secondary{
+   background: url("../images/bg-ballet.jpg"); 
+   background-position: left; 
+   background-repeat:no-repeat; 
+   width:790px;
+   height:617px;
+   list-style-type:none;
+}
+
+#page #body #content ul#featured li.tertiary{
+   background: url("../images/bg-ballroom.jpg"); 
+   background-position: right; 
+   background-repeat:no-repeat;   
+   width:790px;
+   height:588px;
+   list-style-type:none;
+}
+
+#page #body #content ul#featured li.secondary h2{
+   margin:0 0 0 0;
+   padding:110px 0 10px 385px;
+   color:#620287;
+   font-size:48px;
+   font-family: Arial;
+}
+#page #body #content ul#featured li.secondary h2 a{
+   color:#620287;
+   font-size:48px;
+   font-family: Arial;
+   text-decoration:none;
+}
+
+#page #body #content ul#featured li.secondary h2 a img{
+   border:0;
+}
+
+#page #body #content ul#featured li.secondary p{
+   margin:20px 0 0 385px;
+   padding:0;
+   width:325px;
+   font-family: helvetica; 
+   font-size:16px;
+}
+
+
+#page #body #content ul#featured li.secondary p a{
+   color:#ffffff;
+}
+
+#page #body #content ul#featured li.secondary p a:hover{
+  color:#620287;
+}
+ 
+#page #body #content ul#featured li.secondary ul{
+  list-style-type:none;
+   margin:20px 0 0 385px;
+   padding:0;
+}
+
+#page #body #content ul#featured li.secondary ul li{
+   list-style-type:none;
+   margin:0;
+   padding:0;
+   background:none;
+   height:40px;
+   width:227px;
+}
+
+#page #body #content ul#featured li.secondary ul li a{
+  height:40px;
+  width:177px;
+  padding: 0 0 0 50px;
+  line-height:40px;
+  color:#ffffff;
+  display:block;
+  background: url("../images/menu.gif"); 
+  background-position: 0 -90px; width: 227px; height: 40px; 
+  background-repeat:no-repeat; 
+  text-decoration:none;
+}
+
+
+
+#page #body #content ul#featured li.secondary ul li a:hover{
+  color:#68007e;
+  background: url("../images/menu.gif"); 
+  background-position: 0 0; width: 227px; height: 40px;
+  
+  background-repeat:no-repeat; 
+}
+
+
+#page #body #content ul#featured li.secondary ul li.second{
+   position:relative;
+   left:15px;   
+}
+
+#page #body #content ul#featured li.secondary ul li.third{
+   position:relative;
+   left:30px;
+}
+
+#page #body #content ul#featured li.secondary ul li.last{
+   position:relative;
+   left:45px;
+   background:none;
+}
+
+
+#page #body #content ul#featured li.primary h2{
+   margin:0 0 0 0;
+   padding:75px 0 10px 60px;
+   color:#38fd00;
+   font-size:48px;
+   font-family: Arial;
+}
+#page #body #content ul#featured li.primary h2 a{
+   color:#38fd00;
+   font-size:48px;
+   font-family: Arial;
+   text-decoration:none;
+}
+#page #body #content ul#featured li.primary h2 a img{
+   border:0;
+}
+
+#page #body #content ul#featured li.primary p{
+   margin:20px 0 0 60px;
+   padding:0;
+   width:325px;
+   font-family: helvetica; 
+   font-size:16px;
+}
+#page #body #content ul#featured li.primary p a{
+   color:#ffffff;
+}
+#page #body #content ul#featured li.primary p a:hover{
+   color:#d065a9;
+}
+
+#page #body #content ul#featured li.primary ul{
+   list-style-type:none;
+   margin:20px 0 0 60px;
+   padding:0;
+}
+
+#page #body #content ul#featured li.primary ul li{
+   list-style-type:none;
+   margin:0;
+   padding:0;
+   background:none;
+   height:40px;
+   width:227px;
+} 
+
+
+#page #body #content ul#featured li.primary ul li a{
+   display:block;
+   text-decoration:none;
+   background: url("../images/menu.gif"); 
+   background-position: 0 -450px; width: 227px; height: 40px;
+   background-repeat:no-repeat; 
+   height:40px;
+   width:177px;
+   padding: 0 0 0 50px;
+   line-height:40px;
+   color:#ffffff;
+}
+#page #body #content ul#featured li.primary ul li a:hover{
+   text-decoration:none;
+   background: url("../images/menu.gif"); 
+   background-position: 0 -360px; width: 227px; height: 40px;
+   background-repeat:no-repeat; 
+   color:#d065a9;
+}
+
+#page #body #content ul#featured li.primary ul li.first{
+   
+}
+
+#page #body #content ul#featured li.primary ul li.second{
+   position:relative;
+   left:15px;   
+}
+
+#page #body #content ul#featured li.primary ul li.third{
+   position:relative;
+   left:30px;
+}
+
+#page #body #content ul#featured li.primary ul li.last{
+   position:relative;
+   left:45px;
+}
+
+
+
+
+
+
+#page #body #content ul#featured li.tertiary h2{
+   margin:0 0 0 0;
+   padding:95px 0 10px 60px;
+   color:#e40e00;
+   font-size:48px;
+   font-family: Arial;
+}
+
+
+
+
+#page #body #content ul#featured li.tertiary h2 a{
+   color:#e40e00;
+   font-size:48px;
+   font-family: Arial;
+   text-decoration:none;
+}
+
+
+#page #body #content ul#featured li.tertiary h2 a img{
+   border:0;
+}
+
+#page #body #content ul#featured li.tertiary p{
+   margin:20px 0 0 60px;
+   padding:0;
+   width:325px;
+   color:#00a4b4;
+   font-family: helvetica; 
+   font-size:16px;
+}
+
+#page #body #content ul#featured li.tertiary p a{
+   color:#0895b1;
+}
+
+#page #body #content ul#featured li.tertiary p a:hover{
+   color:#00a4b4;
+}
+
+#page #body #content ul#featured li.tertiary ul{
+   list-style-type:none;
+   margin:20px 0 0 60px;
+   padding:0;
+}
+#page #body #content ul#featured li.tertiary ul li{
+   list-style-type:none;
+   margin:0;
+   padding:0;
+   background:none;
+   height:40px;
+   width:227px;
+}
+
+
+
+#page #body #content ul#featured li.tertiary ul li a{
+   display:block;
+   text-decoration:none;
+   background: url("../images/menu.gif"); 
+   background-position: 0 -270px; width: 227px; height: 40px;
+   background-repeat:no-repeat; 
+   height:40px;
+   width:177px;
+   padding: 0 0 0 50px;
+   line-height:40px;
+   color:#009199;
+}
+#page #body #content ul#featured li.tertiary ul li a:hover{
+   text-decoration:none;
+   background: url("../images/menu.gif"); 
+   background-position: 0 -180px; width: 227px; height: 40px;
+   background-repeat:no-repeat; 
+   color:#dd1100;
+}
+
+
+#page #body #content ul#featured li.tertiary ul li.first{
+   
+}
+
+#page #body #content ul#featured li.tertiary ul li.second{
+   position:relative;
+   left:15px;   
+}
+
+#page #body #content ul#featured li.tertiary ul li.third{
+   position:relative;
+   left:30px;
+}
+
+#page #body #content ul#featured li.tertiary ul li.last{
+   position:relative;
+   left:45px;
+}
+
+
+/************* End of Featured Dance ID ********************/
+
+
+/************* Start of Featured Dance Class ********************/
+
+
+#page #body #content ul.featured {
+  list-style-type:none;
+  margin:0;
+  padding:0;  
+  
+}
+
+#page #body #content ul.featured li.primary{
+   background: url("../images/bg-hip-hop.jpg"); 
+   background-position: center; 
+   background-repeat:no-repeat;   
+   width:790px;
+   height:578px;
+   list-style-type:none;
+}
+
+#page #body #content ul.featured li.secondary{
+   background: url("../images/bg-ballet-page.jpg"); 
+   background-position: left; 
+   background-repeat:no-repeat; 
+   width:790px;
+   height:617px;
+   list-style-type:none;
+}
+
+#page #body #content ul.featured li.tertiary{
+   background: url("../images/bg-ballroom.jpg"); 
+   background-position: right; 
+   background-repeat:no-repeat;   
+   width:790px;
+   height:588px;
+   list-style-type:none;
+}
+
+#page #body #content ul.featured li.secondary h2{
+   margin:0 0 0 0;
+   padding:120px 0 0 385px;
+   color:#620287;
+   font-size:48px;
+}
+
+#page #body #content ul.featured li.secondary p{
+   margin:20px 0 0 385px;
+   padding:0;
+   width:325px;
+}
+
+
+#page #body #content ul.featured li.secondary ul{
+  list-style-type:none;
+   margin:20px 0 0 385px;
+   padding:0;
+}
+
+#page #body #content ul.featured li.secondary ul li{
+   list-style-type:none;
+   margin:0;
+   padding:0;
+   background:none;
+   height:40px;
+   width:227px;
+}
+
+#page #body #content ul.featured li.secondary ul li a{
+  height:40px;
+  width:177px;
+  padding: 0 0 0 50px;
+  line-height:40px;
+  color:#ffffff;
+  display:block;
+  background: url("../images/menu-ballet.gif"); 
+  background-position: center; 
+  background-repeat:no-repeat; 
+  text-decoration:none;
+}
+
+
+
+#page #body #content ul.featured li.secondary ul li a:hover{
+  color:#68007e;
+  background: url("../images/menu-ballet-hover.gif"); 
+  background-position: center; 
+  background-repeat:no-repeat; 
+}
+
+
+#page #body #content ul.featured li.secondary ul li.second{
+   position:relative;
+   left:15px;   
+}
+
+#page #body #content ul.featured li.secondary ul li.third{
+   position:relative;
+   left:30px;
+}
+
+#page #body #content ul.featured li.secondary ul li.last{
+   position:relative;
+   left:45px;
+   background:none;
+}
+
+
+
+/******************Start of Hiphop ******************************/
+
+#page #body #content ul.hiphop {
+  list-style-type:none;
+  margin:29px 0 0 0;
+  padding:0;  
+  width:790px;
+  height:585px;
+}
+
+#page #body #content div.hiphop {
+   width:680px;
+   background: url("../images/bg-hiphop-page-bottom.jpg"); 
+   background-position: bottom center; 
+   background-repeat:no-repeat;   
+   background-color:#ffffff;
+   height:875px;
+   margin-left:27px;
+   padding:60px 35px 0 35px;
+   
+}
+
+#page #body #content div.hiphop  ul {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+#page #body #content div.hiphop  ul li{
+   margin:0 0 45px 0;
+}
+
+#page #body #content div.hiphop  ul li ul li{
+   color:#5e5e5e;
+   list-style-type: disc;
+   margin: 0 0 0 15px;
+}
+
+#page #body #content div.hiphop  ul li ul.section{
+    
+	overflow:hidden;
+}
+
+#page #body #content div.hiphop  ul li ul.section li{
+   float:left;
+   width:300px;
+   
+}
+
+#page #body #content div.hiphop  ul li h2{
+  margin:0;
+  padding:0;
+}
+
+#page #body #content div.hiphop  ul li h2 a{
+  text-decoration:none;
+  color:#e20a79;
+}
+
+#page #body #content div.hiphop  ul li p{
+  color:#5e5e5e;
+}
+
+#page #body #content div.hiphop  ul li p a{
+  color:#5e5e5e;
+}
+
+
+#page #body #content div.hiphop  ul li p a:hover{
+  color:#e20a79;
+}
+
+#page #body #content div.hiphop p{
+  color:#5e5e5e;
+}
+
+#page #body #content div.hiphop p a{
+   color:#5e5e5e;
+}
+#page #body #content div.hiphop p a:hover{
+   color:#e20a79;
+}
+
+#page #body #content div.hiphop  table{
+  margin:0;
+  padding:0;
+}
+#page #body #content div.hiphop  table th{
+  color:#E20A79;
+  text-align: left;
+}
+#page #body #content div.hiphop  table tr{
+  margin-bottom:45px;
+}
+
+
+#page #body #content div.hiphop  table tr td.first{
+  width:100px;
+}
+
+#page #body #content div.hiphop  table tr td{
+  color:#5E5E5E;
+  vertical-align:top;
+  width:170px;
+  
+}
+#page #body #content div.hiphop  table tr td span{
+  display:block;
+}
+
+
+#page #body #content div.hiphop  table tr td p{
+  text-align:left;
+}
+
+
+#page #body #content ul.hiphop li.primary{
+   background: url("../images/bg-hiphop-page.jpg"); 
+   background-position: 27px 0px; 
+   background-repeat:no-repeat;   
+   width:790px;
+   height:585px;
+   list-style-type:none;
+}
+
+
+#page #body #content ul.hiphop li.primary h2{
+   margin:0 0 0 0;
+   padding:102px 0 10px 60px;
+   color:#38fd00;
+   font-size:48px;
+   font-family: Arial;
+}
+
+#page #body #content ul.hiphop li.primary h2 a{
+   color:#38fd00;
+   font-size:48px;
+   font-family: Arial;
+   text-decoration:none;
+}
+
+#page #body #content ul.hiphop li.primary h2 a img{
+   border:0;
+}
+
+#page #body #content ul.hiphop li.primary p{
+   margin:20px 0 0 60px;
+   padding:0;
+   width:325px;
+}
+#page #body #content ul.hiphop li.primary p a{
+   color:#ffffff;
+}
+#page #body #content ul.hiphop li.primary p a:hover{
+   color:#d065a9;
+}
+
+#page #body #content ul.hiphop li.primary ul{
+   list-style-type:none;
+   margin:20px 0 0 60px;
+   padding:0;
+}
+
+#page #body #content ul.hiphop li.primary ul li{
+   list-style-type:none;
+   margin:0;
+   padding:0;
+   background:none;
+   height:40px;
+   width:227px;
+} 
+
+#page #body #content ul.hiphop li.primary ul li a{
+   display:block;
+   text-decoration:none;
+   background: url("../images/menu-hiphop.gif"); 
+   background-position: center; 
+   background-repeat:no-repeat; 
+   height:40px;
+   width:177px;
+   padding: 0 0 0 50px;
+   line-height:40px;
+   color:#ffffff;
+}
+#page #body #content ul.hiphop li.primary ul li a:hover{
+   text-decoration:none;
+   background: url("../images/menu-hiphop-hover.gif"); 
+   background-position: center; 
+   background-repeat:no-repeat; 
+   color:#d065a9;
+}
+
+#page #body #content ul.hiphop li.primary ul li a.active{
+   text-decoration:none;
+   background: url("../images/menu-hiphop-hover.gif"); 
+   background-position: center; 
+   background-repeat:no-repeat; 
+   color:#d065a9;
+}
+
+#page #body #content ul.hiphop li.primary ul li.second{
+   position:relative;
+   left:15px;   
+}
+
+#page #body #content ul.hiphop li.primary ul li.third{
+   position:relative;
+   left:30px;
+}
+
+#page #body #content ul.hiphop li.primary ul li.last{
+   position:relative;
+   left:45px;
+}
+
+/******************End of Hiphop ******************************/
+
+
+/******************Start of ballet ******************************/
+
+
+
+#page #body #content div.ballet {
+   width:680px;
+   background: url("../images/bg-ballet-page-bottom.jpg"); 
+   background-position: bottom center; 
+   background-repeat:no-repeat;   
+   background-color:#ffffff;
+   height:857px;
+   margin-left:27px;
+   padding:60px 35px 0 35px;
+   
+}
+
+
+#page #body #content div.ballet  ul {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+#page #body #content div.ballet  ul li{
+   margin:0 0 45px 0;
+}
+
+#page #body #content div.ballet  ul li ul li{
+   color:#5e5e5e;
+   list-style-type: disc;
+   margin: 0 0 0 15px;
+}
+
+
+#page #body #content div.ballet  ul li ul.section{
+
+	overflow:hidden;
+	
+}
+#page #body #content div.ballet  ul li ul.section li{
+   float:left;
+   width:300px;
+   
+}
+
+#page #body #content div.ballet  ul li h2{
+  margin:0;
+  padding:0;
+}
+
+#page #body #content div.ballet  ul li h2 a{
+  text-decoration:none;
+  color:#620287;
+}
+
+#page #body #content div.ballet  ul li p{
+  color:#5e5e5e;
+}
+
+#page #body #content div.ballet  ul li p a{
+  color:#5e5e5e;
+}
+
+
+#page #body #content div.ballet  ul li p a:hover{
+  color:#620287;
+}
+
+#page #body #content div.ballet p{
+  color:#5e5e5e;
+  font-family: Arial; 
+  font-size:12px;
+}
+
+#page #body #content div.ballet p a{
+   color:#5e5e5e;
+}
+#page #body #content div.ballet p a:hover{
+   color:#620287;
+}
+
+#page #body #content div.ballet table {
+    margin: 0 0 50px;
+    padding: 0;
+}
+#page #body #content div.ballet table th {
+    color: #620287;
+	text-align: left;
+}
+#page #body #content div.ballet table tr {
+    margin-bottom: 45px;
+}
+#page #body #content div.ballet table tr td.first {
+    width: 100px;
+}
+#page #body #content div.ballet table tr td {
+    color: #5E5E5E;
+    font-family: Arial;
+    font-size: 14px;
+    vertical-align: top;
+    width: 170px;
+}
+#page #body #content div.ballet table tr td span {
+    display: block;
+}
+#page #body #content div.ballet table tr td p {
+    font-family: Arial;
+    font-size: 14px;
+    text-align: left;
+}
+
+
+
+#page #body #content ul.ballet {
+    list-style-type: none;
+    margin:29px 0 0 0;
+    padding: 0;
+    width: 790px;
+	
+}
+
+
+#page #body #content ul.ballet li.secondary{
+   width:790px;
+   height:602px;
+   list-style-type:none;
+   background: url("../images/bg-ballet-page.jpg"); 
+   background-position: 27px 0; 
+   background-repeat:no-repeat; 
+ 
+}
+
+
+#page #body #content ul.ballet li.secondary h2{
+   margin:0 0 0 0;
+   padding:110px 0 10px 407px;
+   color:#620287;
+   font-size:48px;
+   font-family: Arial;
+}
+
+
+#page #body #content ul.ballet li.secondary h2 a{
+   color:#620287;
+   font-size:48px;
+   font-family: Arial;
+}
+
+
+#page #body #content ul.ballet li.secondary h2 a img{
+   border:0;
+}
+
+
+#page #body #content ul.ballet li.secondary p{
+   margin:20px 0 0 407px;
+   padding:0;
+   width:325px;
+}
+
+
+#page #body #content ul.ballet li.secondary p a{
+   color:#ffffff;
+}
+
+#page #body #content ul.ballet li.secondary p a:hover{
+   color:#620287;
+}
+
+#page #body #content ul.ballet li.secondary ul{
+  list-style-type:none;
+   margin:20px 0 0 407px;
+   padding:0;
+}
+
+#page #body #content ul.ballet li.secondary ul li{
+   list-style-type:none;
+   margin:0;
+   padding:0;
+   background:none;
+   height:40px;
+   width:227px;
+}
+
+#page #body #content ul.ballet li.secondary ul li a{
+  height:40px;
+  width:177px;
+  padding: 0 0 0 50px;
+  line-height:40px;
+  color:#ffffff;
+  display:block;
+  background: url("../images/menu-ballet.gif"); 
+  background-position: center; 
+  background-repeat:no-repeat; 
+  text-decoration:none;
+}
+
+
+
+#page #body #content ul.ballet li.secondary ul li a:hover{
+  color:#68007e;
+  background: url("../images/menu-ballet-hover.gif"); 
+  background-position: center; 
+  background-repeat:no-repeat; 
+}
+
+#page #body #content ul.ballet li.secondary ul li.second{
+   position:relative;
+   left:15px;   
+}
+
+#page #body #content ul.ballet li.secondary ul li.third{
+   position:relative;
+   left:30px;
+}
+
+#page #body #content ul.ballet li.secondary ul li.last{
+   position:relative;
+   left:45px;
+   background:none;
+}
+
+#page #body #content ul.ballet li.secondary ul li a.active{
+  color:#68007e;
+  background: url("../images/menu-ballet-hover.gif"); 
+  background-position: center; 
+  background-repeat:no-repeat; 
+}
+
+/******************End of ballet ******************************/
+
+
+#page #body #content ul.featured li.tertiary h2{
+    margin:0 0 0 0;
+   padding:105px 0 0 60px;
+   color:#e40e00;
+   font-size:48px;
+}
+
+#page #body #content ul.featured li.tertiary p{
+    margin:20px 0 0 60px;
+   padding:0;
+   width:325px;
+   color:#00a4b4;
+}
+
+#page #body #content ul.featured li.tertiary p a{
+   color:#0895b1;
+}
+
+#page #body #content ul.featured li.tertiary p a:hover{
+   color:#00a4b4;
+}
+
+#page #body #content ul.featured li.tertiary ul{
+   list-style-type:none;
+   margin:20px 0 0 60px;
+   padding:0;
+}
+#page #body #content ul.featured li.tertiary ul li{
+   list-style-type:none;
+   margin:0;
+   padding:0;
+   background:none;
+   height:40px;
+   width:227px;
+}
+
+
+
+#page #body #content ul.featured li.tertiary ul li a{
+   display:block;
+   text-decoration:none;
+   background: url("../images/menu-ballroom.gif"); 
+   background-position: center; 
+   background-repeat:no-repeat; 
+   height:40px;
+   width:177px;
+   padding: 0 0 0 50px;
+   line-height:40px;
+   color:#009199;
+}
+#page #body #content ul.featured li.tertiary ul li a:hover{
+   text-decoration:none;
+   background: url("../images/menu-ballroom-hover.gif"); 
+   background-position: center; 
+   background-repeat:no-repeat; 
+   color:#dd1100;
+}
+
+
+#page #body #content ul.featured li.tertiary ul li.first{
+   
+}
+
+#page #body #content ul.featured li.tertiary ul li.second{
+   position:relative;
+   left:15px;   
+}
+
+#page #body #content ul.featured li.tertiary ul li.third{
+   position:relative;
+   left:30px;
+}
+
+#page #body #content ul.featured li.tertiary ul li.last{
+   position:relative;
+   left:45px;
+}
+
+
+/************* End of Featured Dance Class ********************/
+
+
+
+/******************Start of Ballroom ******************************/
+
+
+#page #body #content div.ballroom {
+   width:680px;
+   background: url("../images/bg-ballroom-page-bottom.jpg"); 
+   background-position: bottom center; 
+   background-repeat:no-repeat;   
+   background-color:#ffffff;
+   height:875px;
+   margin-left:27px;
+   padding:60px 35px 0 35px;
+   
+}
+
+#page #body #content div.ballroom  ul {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+#page #body #content div.ballroom  ul li{
+   margin:0 0 45px 0;
+}
+
+#page #body #content div.ballroom  ul li ul li{
+   color:#5e5e5e;
+   list-style-type: disc;
+   margin: 0 0 0 15px;
+}
+
+#page #body #content div.ballroom  ul li ul.section{
+	overflow:hidden;
+}
+#page #body #content div.ballroom  ul li ul.section li{
+   float:left;
+   width:300px;
+}
+
+
+#page #body #content div.ballroom  ul li h2{
+  margin:0;
+  padding:0;
+}
+
+#page #body #content div.ballroom  ul li h2 a{
+  text-decoration:none;
+  color:#E40E00;
+}
+
+#page #body #content div.ballroom  ul li p{
+  color:#5e5e5e;
+}
+
+#page #body #content div.ballroom  ul li p a{
+  color:#5e5e5e;
+}
+
+
+#page #body #content div.ballroom  ul li p a:hover{
+  color:#E40E00;
+}
+
+#page #body #content div.ballroom p{
+  color:#5e5e5e;
+  font-family: Arial; 
+  font-size:12px; 
+}
+
+#page #body #content div.ballroom p a{
+   color:#5e5e5e;
+}
+#page #body #content div.ballroom p a:hover{
+   color:#e20a79;
+}
+
+#page #body #content div.ballroom  table{
+  margin:0 0 50px 0;
+  padding:0;
+}
+#page #body #content div.ballroom  table th{
+  color:#E40E00;
+  text-align: left;
+}
+#page #body #content div.ballroom  table tr{
+  margin-bottom:45px;
+}
+
+
+#page #body #content div.ballroom  table tr td.first{
+  width:100px;
+}
+
+#page #body #content div.ballroom  table tr td{
+  color:#5E5E5E;
+  vertical-align:top;
+  width:170px;
+  font-family: Arial; 
+  font-size:14px; 
+  
+}
+#page #body #content div.ballroom  table tr td span{
+  display:block;
+}
+
+
+#page #body #content div.ballroom  table tr td p{
+  text-align:left;
+  font-family: Arial; 
+  font-size:14px;
+}
+
+
+#page #body #content ul.ballroom {
+    height: 585px;
+    list-style-type: none;
+    margin: 29px 0 0;
+    padding: 0;
+    width: 790px;
+}
+
+#page #body #content ul.ballroom li.tertiary{
+   background: url("../images/bg-ballroom-page.jpg"); 
+   background-position: 27px 0px; 
+   background-repeat:no-repeat;   
+   width:790px;
+   height:585px;
+   list-style-type:none;
+}
+
+
+#page #body #content ul.ballroom li.tertiary h2{
+   margin:0 0 0 0;
+   padding:102px 0 10px 60px;
+   color:#E40E00;
+   font-size:48px;
+   font-family: Arial;
+}
+
+
+#page #body #content ul.ballroom li.tertiary h2 a{
+   color:#E40E00;
+   font-size:48px;
+   font-family: Arial;
+   text-decoration:none;
+}
+
+
+#page #body #content ul.ballroom li.tertiary h2 a img{
+   border:0;
+}
+
+#page #body #content ul.ballroom li.tertiary p{
+   margin:20px 0 0 60px;
+   padding:0;
+   width:325px;
+   color:#00A4B4;
+   font-family: helvetica; 
+   font-size:16px;
+}
+#page #body #content ul.ballroom li.tertiary p a{
+   color:#00A4B4;
+}
+#page #body #content ul.ballroom li.tertiary p a:hover{
+   color:#00a4b4;
+}
+
+#page #body #content ul.ballroom li.tertiary ul{
+   list-style-type:none;
+   margin:20px 0 0 60px;
+   padding:0;
+}
+
+#page #body #content ul.ballroom li.tertiary ul li{
+   list-style-type:none;
+   margin:0;
+   padding:0;
+   background:none;
+   height:40px;
+   width:227px;
+} 
+
+#page #body #content ul.ballroom li.tertiary ul li a{
+   display:block;
+   text-decoration:none;
+   background: url("../images/menu-ballroom.gif"); 
+   background-position: center; 
+   background-repeat:no-repeat; 
+   height:40px;
+   width:177px;
+   padding: 0 0 0 50px;
+   line-height:40px;
+   color:#ffffff;
+}
+#page #body #content ul.ballroom li.tertiary ul li a:hover{
+   text-decoration:none;
+   background: url("../images/menu-ballroom-hover.gif"); 
+   background-position: center; 
+   background-repeat:no-repeat; 
+   color:#dd1100;
+}
+
+#page #body #content ul.ballroom li.tertiary ul li a.active{
+   text-decoration:none;
+   background: url("../images/menu-ballroom-hover.gif"); 
+   background-position: center; 
+   background-repeat:no-repeat; 
+   color:#dd1100;
+}
+
+#page #body #content ul.ballroom li.tertiary ul li.second{
+   position:relative;
+   left:15px;   
+}
+
+#page #body #content ul.ballroom li.tertiary ul li.third{
+   position:relative;
+   left:30px;
+}
+
+#page #body #content ul.ballroom li.tertiary ul li.last{	
+   position:relative;
+   left:45px;
+}
+
+/******************End of Ballroom ******************************/
+
+
+
+/*************************Start of Inner pages styles ************************************/
+
+#page #body #content #section{
+   margin:29px 0 0 27px;
+   padding-top:60px;
+  
+   background: url("../images/bg-inner-page-top.jpg"); 
+   background-position: center top; 
+   background-repeat:no-repeat;
+   width:750px;
+   overflow:hidden;
+    
+} 
+
+#page #body #content #section .body{
+   background: url("../images/bg-inner-page-bottom.jpg"); 
+   background-position: center bottom; 
+   background-repeat:no-repeat; 
+   background-color:#fff;
+   padding: 20px 35px 0 35px;
+   width: 680px;
+   height:1020px;
+   margin-top:30px;
+   
+} 
+
+#page #body #content #section .body h1{
+   padding: 0 20px;
+   background-color:#7702a9;
+   height:50px;
+   width:240px;
+   line-height:50px;
+   font-family: Helvetica; 
+   font-size:25px;  
+   color:#ffffff;
+   margin-left:-35px;
+}
+
+#page #body #content #section .body  ul li h2{
+  font-family: Arial; 
+  font-size:20px;  
+  color:#242424;
+  clear:both;
+  margin: 0 0 10px;
+}
+
+#page #body #content #section .body  ul li h2 a{
+  font-family: Arial; 
+  font-size:20px;  
+  color:#242424;
+  clear:both;
+  margin:0;
+  text-decoration:none;
+}
+
+#page #body #content #section .body  ul li h2 a:hover{
+  color:#7702a9;
+}
+
+#page #body #content #section .body ul{
+  
+  margin:0;
+  padding:0;
+  width:685px;
+  list-style-type:none;
+  overflow:hidden;
+  
+}
+
+#page #body #content #section .body ul li{
+  color:#5E5E5E;
+  padding:25px 0 0px 0;
+  overflow:hidden;
+  
+}
+
+#page #body #content #section .body ul li table{
+  width:300px;
+  float:left;
+  overflow:hidden;
+  margin-bottom:25px;
+}
+
+#page #body #content #section .body ul li table td{
+  width:300px;
+  margin:0;
+}
+#page #body #content #section .body ul li table td span{
+   font-weight:normal;
+}
+
+#page #body #content #section .body ul li table td.first{
+  width:50px;
+}
+
+#page #body #content #section .body ul li table td ul{
+  width:300px;
+   
+}
+#page #body #content #section .body ul li table td ul li{
+  margin:0;
+  overflow:visible;
+}
+
+#page #body #content #section .body ul li  span{
+    font-weight:bold;
+}
+
+#page #body #content #section .body ul li p{
+  color:#505050;
+  font-size:15px;
+  font-family:Arial;
+}
+#page #body #content #section .body ul li p span{
+    display:block;
+	color:#505050;
+	font-size:15px;
+	font-family:Arial;
+	font-weight:normal;
+}
+
+#page #body #content #section .body ul li p a{
+  color:#505050;
+}
+
+#page #body #content #section .body ul li p a:hover{
+  color:#7702A9;
+}
+
+#page #body #content #section .body ul li ul{
+  list-style-type:disc;
+  float:left;
+  margin:0;
+  padding:0 0 0 15px;
+}
+
+#page #body #content #section .body ul li ul li{
+    width:300px;
+	float:left;
+	padding:0;
+	overflow:visible;
+	
+}
+
+/**************Start of Gallery Style**************************/
+#page #body #content #section .body{
+   overflow: hidden;
+}
+
+#page #body #content #section .body ul.gallery{
+
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 680px;
+}
+
+#page #body #content #section .body ul.gallery li{
+   float:left;
+   width:198px;
+   height:198px;
+   padding-right:25px;	
+}
+
+#page #body #content #section .body ul.gallery li img{
+   border:0;
+}
+
+#page #body #content #section .body ul.gallery li a{
+       text-decoration:none;        
+}
+
+
+/**************End of Gallery Style**************************/
+
+/*********************Start Of News and Events************************************/
+#page #body #content #section .body ul.news{
+ overflow:hidden;
+}
+
+#page #body #content #section .body img{
+   border:0;
+   
+}
+
+#page #body #content #section .body ul.news li{
+    
+    border-left: 1px none;
+    border-right: 1px none;
+    border-style: none none dashed;
+    border-top: 1px none;
+    border-width: 1px;
+    padding: 20px 0;
+	height:250px;
+}
+
+#page #body #content #section .body ul.news li p{
+  padding:0;
+  margin:0;
+   
+}
+ 
+#page #body #content #section .body ul.news li img{
+   float:left;
+   margin-right:10px;
+}
+#page #body #content #section .body ul.news li.last img{
+   float:right;
+   margin-left:10px;
+}
+#page #body #content #section .body ul.news li.last{
+border:none;
+}
+/*********************End Of News and Events************************************/
+
+
+
+#page #body #content #section .body .content ul.section{
+	margin-top:20px;
+	list-style-type:none;
+	width:400px;
+	
+}	
+#page #body #content #section .body .content ul.section li{
+	list-style-type:none;
+
+	}
+
+
+/******Start for Private lessons Style****/
+#page #body #content #section .body .content{
+	width:400px;
+	float:left;
+	margin-right:10px;
+	overflow:hidden;
+}	
+#page #body #content #section .body .content p{
+   color:#5E5E5E;
+}
+
+#page #body #content #section .body .content p a{
+   color:#5E5E5E;
+}
+
+#page #body #content #section .body .content p a:hover{
+   color:#7702A9;
+}
+
+
+#page #body #content #section .body .content ul{
+  width:300px;
+  margin:0;
+  padding:0;
+}
+
+#page #body #content #section .body .content ul li{
+  overflow:visible;
+  padding:0 0 5px 0;
+  margin:0 0 0 15px;
+  list-style-type:disc;
+}
+
+#page #body #content #section .body .aside{
+	
+	width:270px;
+	float:left;
+	padding-top:20px;
+	text-align:center;
+}	
+#page #body #content #section .body .aside a{
+    text-decoration:none;
+}
+
+#page #body #content #section .body .aside img{
+  border-style-type:solid;
+  border-color:#cccccc;
+}
+
+#page #body #content #section .body .aside ul.section{
+  width:250px;
+  margin: 60px 0 35px 20px;
+   
+}
+
+#page #body #content #section .body .aside ul.section li{  
+  text-align:left;
+  margin:0;
+  padding:0;
+}
+
+#page #body #content #section .body .aside ul.section li.last{
+  padding-bottom:0px;
+}
+#page #body #content #section .body .aside ul.section li.first{
+  padding-top:25px;
+}
+
+#page #body #content #section .body .aside ul.section li a{
+  
+  color:#5E5E5E
+}
+
+
+#page #body #content #section .body .aside ul.section li a:hover{
+ color:#7702A9
+}
+
+
+
+#page #body #content #section .body .aside ul.news{
+  width:250px;
+  margin: 30px 0 0 20px;
+  
+}
+
+#page #body #content #section .body .aside ul.news li{  
+  text-align:left;
+  margin:0;
+  padding:20px 0 20px 0;
+  border-style: dashed;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  border-width:1px;
+  height:180px;
+  
+}
+
+#page #body #content #section .body .aside ul.news li h2{  
+  margin:0;
+  padding:0;
+}
+#page #body #content #section .body .aside ul.news li h2 a{  
+ font-weight:bold;
+ font-size:15px;
+ font-family:Arial;
+ color:#242424;
+}
+#page #body #content #section .body .aside ul.news li.last{
+  border:none;
+}
+#page #body #content #section .body .aside ul.news li p a{
+    text-decoration:underline;
+}
+
+/******End for Private lessons Style****/	
+
+
+/******Start for Policies Style****/	
+
+#page #body #content #section .body  p{
+   color:#5E5E5E;
+}
+
+#page #body #content #section .body  p a{
+   color:#5E5E5E;
+}
+
+#page #body #content #section .body  p a:hover{
+   color:#7702A9;
+}
+
+#page #body #content #section .body ul.section{
+  overflow:visible;
+  list-style-type:disc;
+}
+#page #body #content #section .body ul.section li{
+  overflow:visible;
+}
+
+
+#page #body #content #section .body  h2{
+  font-family: Arial; 
+  font-size:20px;  
+  color:#242424;
+  clear:both;
+  margin:40px 0 0 0;
+}
+/******End for Policies Style****/	
+
+/*************************End of Inner pages styles ************************************/
+
+
+/********************Start of footer*******************************/
+   #page #footer{
+     
+	 width:960px;
+	 margin:0 auto;
+     text-align:center; 
+	 height:100px;
+	 line-height:100px;
+   }
+   
+   #page #footer span{
+      height:100px;
+	  line-height:100px;
+	  color:#ffffff;
+	  font-family: Arial; 
+	  font-size:12px;
+   }
