@@ -1,0 +1,228 @@
+ body { 
+  margin:0;
+  padding:0;
+  font-family: Arial, Verdana, Helvetica, sans-serif; 
+  font-size: 14px; 
+  line-height: 25px; 
+  color:#fff; 
+  text-align: justify; 
+  background: url("../images/grey.jpg") no-repeat center center fixed ;  
+}
+
+#background{
+  background: url("../images/grey.jpg"); 
+  background-position: center top; 
+  background-repeat:no-repeat; 
+
+}
+
+#page #header{
+
+	height:226px;
+	margin:0 auto;
+	width:960px;
+}
+
+#page #header .header{
+  height:226px;
+}	 
+
+#page #header .header a#logo{
+  position:relative;
+  left: 200px;
+}
+
+#page #header .header a#logo img{
+ border:0;
+}
+
+#page #body{
+  width:960px;
+  margin:0 auto;
+  overflow:hidden;
+}
+
+/***********Start of Sidebar Style*******************/
+#page #body #sidebar{
+  width:170px;
+  float:left;
+  margin:56px 0 0 0;
+}
+
+#page #body #sidebar ul.navigation{
+  list-style-type:none;
+  margin:85px 30px 0 0;
+  padding:0;
+  background: url("../images/background.jpg");
+}
+
+ ul.navigation li{
+  width:auto;
+  padding: 10px  0;
+  margin-top:-7px;
+  height:auto;
+  background: url("../images/background.jpg");
+}
+
+#page #body #sidebar ul.navigation li a{
+  text-decoration:none;
+  padding: 10px  10px 10px  10px;
+  background: url("../images/background.jpg");
+  color:#E0690B;
+  font-size:18px;
+  width:auto;
+  height:auto;
+  font-family:Helvetica;
+}
+#page #body #sidebar ul.navigation li a:hover{
+  color:#E78F4A;
+  position:relative;
+  z-index:20;
+}
+#page #body #sidebar .connect{
+  width:100px;
+  height:65px;
+  background: url("../images/background.jpg");
+  text-align:center;
+}
+#page #body #sidebar .connect span{
+  font-style:italic;
+  display:block;
+  color:#E0690B;
+  margin:5px 0;
+  padding-top:5px;
+}
+#page #body #sidebar .connect a{
+  text-decoration:none;
+}
+#page #body #sidebar .connect a.facebook{
+  display:inline-block;
+  background: url("../images/icon.gif"); 
+  background-position: 0 0; width: 20px; height: 19px;
+  background-repeat:no-repeat;   
+  width:20px;
+  height:19px;
+}
+#page #body #sidebar .connect a.facebook:hover{
+  opacity:0.4;
+  filter:alpha(opacity=40);
+}
+/***********End of Sidebar Style*******************/
+
+#page #body #content{
+  width:790px;
+  float:left;
+  overflow:hidden;
+}
+
+/************* Pages First Thing ********************/
+#page #body #content ul#featured {
+  list-style-type:none;
+  margin:56px 0 0 0;
+  padding:0;  
+  
+}
+/************* End of Pages First Thing ********************/
+
+
+
+/********************Start of footer*******************************/
+#page #footer{
+
+  width:960px;
+  margin:0 auto;
+  text-align:center; 
+  height:100px;
+  line-height:100px;
+}
+#page #footer span{
+  height:100px;
+  line-height:100px;
+#page #body #content ul#featured #classestable table.table_headers{
+  background: url("../images/background.jpg");
+  color: #E0690B;
+}  
+  font-family: Arial; 
+  font-size:12px;
+}
+/********************End of footer*******************************/
+
+
+/********************Start of Check Boxes*******************************/
+input[type='checkbox'] {
+  -webkit-appearance:none;
+  width:30px;
+  height:30px;
+  background:#ffffff;
+  border-radius:5px;
+  border:2px solid #555;
+}
+input[type='checkbox']:checked {
+  background: #E0690B;
+}
+/********************End of Check Boxes*******************************/
+
+
+/********************Start of tables*******************************/
+#page #body #content ul#featured #classestable table.table_table-responsive{
+  width: 750px;
+  background: url("../images/background.jpg");
+  color: #E0690B;
+}
+
+#page #body #content ul#featured #classestable table.paid_table-responsive{
+  
+  width: 750px;
+  background: url("../images/background.jpg");
+  color: #E0690B;
+}
+
+#page #body #content ul#featured #classestable table.table_headers{
+  margin-top:50px;
+  width: 750px;
+  background: url("../images/background.jpg");
+  color: #E0690B;
+}
+/********************End of tables*******************************/
+
+
+/********************Start of head*******************************/
+#page #body #content ul#featured #payclasseshead{
+  margin-top:100px;
+  color: #E0690B;
+}
+/********************End of head*******************************/
+
+/********************Start of pay button*******************************/
+#page #body #content ul#featured #totalbutton{
+  margin-top:15px;
+  margin-left: 350px;
+}
+/********************End of pay button*******************************/
+
+/********************Start of login format*******************************/
+#page #body #content ul#featured #loginform{
+margin-top: 80px;
+background: url("../images/one.jpg");
+background-size: 100%;
+}
+/********************End of login format*******************************/
+
+/********************Start of submit button*******************************/
+#page #body #content ul#featured #submitbutton{
+  margin-top:90px;
+  margin-left: 130px;
+}
+/********************End of submit button*******************************/
+
+
+/********************Start of wrong login button*******************************/
+#page #body #content ul#featured #wronghandleoflogin{
+  margin-left: 130px;
+}
+/********************End of wrong login button*******************************/
+
+#page #header .header .slogan{
+ margin-left: 35%;
+ color: #E0690B;
+}
