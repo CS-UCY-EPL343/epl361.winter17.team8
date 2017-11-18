@@ -1,0 +1,231 @@
+ body { 
+      margin:0;
+			padding:0;
+			font-family: Arial, Verdana, Helvetica, sans-serif; 
+			font-size: 17px; 
+			line-height: 25px; 
+			color:#fff; 
+			text-align: justify; 
+			background:url('../images/grey.jpg') repeat top center;
+    }
+	#background {
+    background: url("../images/two.jpg"); 
+    background-position:  top center; 
+    background-repeat: no-repeat; 
+    background-size: 62% 80%;
+  }    
+#page #header{
+  height:350px;
+  margin:0 auto;
+  width:960px;
+}
+#page #header .header{
+    height:226px;
+}  
+#page #header .header div.slogan{
+   width:685px;
+   margin-left:275px;
+   height:135px;
+   margin-top:-120px;
+   text-align:center;
+   color:#02eaf1;
+}
+#page #body{
+  width:960px;
+  margin:100px auto;
+  overflow:visible;
+}
+table.title {
+   background: url("../images/background.jpg"); 
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+    color:#ffffff;
+}
+table.title td, th {
+    border: 0px ;
+    text-align: center;
+    padding: 50px;
+}
+table.records {
+   background: url("../images/background.jpg"); 
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+    color:#ffffff;
+}
+table.records th {
+    border: 1px solid #E0690B;
+    text-align: center;
+    padding: 8px;
+    color:#E0690B;
+}
+table.records td, th {
+    border: 2px solid #E0690B;
+    text-align: center;
+    padding: 8px;
+}
+
+/***********Start of Sidebar Style*******************/
+
+#page #body #sidebar{
+  width:170px;
+  float:left;
+  margin:56px 0 0 0;
+}
+
+#page #body #sidebar ul.navigation{
+  list-style-type:none;
+  margin:65px 0 0 0;
+  padding:0;
+  background: url("../images/background.jpg");
+}
+
+ ul.navigation li{
+  width:auto;
+  padding: 10px  0;
+  margin-top:-7px;
+  height:auto;
+  background: url("../images/background.jpg");
+}
+
+#page #body #sidebar ul.navigation li a{
+  text-decoration:none;
+  padding: 10px  10px 10px  10px;
+  background: url("../images/background.jpg");
+  color:#E0690B;
+  font-size:18px;
+  width:auto;
+  height:auto;
+  font-family:Helvetica;
+}
+#page #body #sidebar ul.navigation li a:hover{
+  color:#E78F4A;
+  position:relative;
+  z-index:20;
+}
+#page #body #sidebar .connect{
+  width:100px;
+  height:65px;
+  background: url("../images/background.jpg");
+  text-align:center;
+}
+#page #body #sidebar .connect span{
+  font-style:italic;
+  display:block;
+  color:#E0690B;
+  margin:5px 0;
+  padding-top:5px;
+}
+#page #body #sidebar .connect a.facebook{
+  display:inline-block;
+  background: url("../images/icon.gif"); 
+  background-position: 0 0; width: 20px; height: 19px;
+  background-repeat:no-repeat;   
+  width:20px;
+  height:19px;
+}
+#page #body #sidebar .connect a.facebook:hover{
+  opacity:0.4;
+  filter:alpha(opacity=40);
+}
+
+/***********End of Sidebar Style*******************/
+
+#page #body #content{
+  width:790px;
+  float:left;
+  overflow:visible;
+}
+
+/************* Start of Registration ********************/
+
+#page #body #content ul#featured {
+  list-style-type:none;
+  margin:56px 0 0 0;
+  padding:0;   
+}
+#page #body #content ul#featured li.primary{
+   background: url("../images/background.jpg"); 
+   background-position: center; 
+   background-repeat:no-repeat;   
+   width:790px;
+   height:400px;
+   list-style-type:none;
+}
+#page #body #content ul#featured li.primary p{
+   margin:50px 0 0 100px;
+   padding:0;
+   width:325px;
+   font-family: helvetica; 
+   font-size:18px;
+}
+
+#page #body #content ul#featured li.secondary{
+   background-position: center; 
+   background-repeat:no-repeat;   
+   width:790px;
+   height:578px;
+   list-style-type:none;
+}
+#page #body #content ul#featured li.secondary p{
+   margin:50px 0 0 100px;
+   padding:0;
+   width:325px;
+   font-family: helvetica; 
+   font-size:18px;
+}
+input[type=text],[type=date],[type=tel],[type=email],[type=password], select, textarea {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    resize: vertical;
+}
+input[type=submit],[type=reset] {
+    background-color: #F55A39;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    font-weight: bold;
+}
+input[type=submit]:hover {
+    background-color: #E78F4A;
+  }
+input[type=reset]:hover {
+    background-color: #E78F4A;
+}
+label{
+  color: #E0690B;
+font-weight: bold;
+display: block;
+width: 180px;
+float: left;
+}
+
+/************* End of Registration ********************/
+
+/********************Start of footer*******************************/
+
+#page #footer{
+  width:960px;
+  margin:0 auto;
+  text-align:center; 
+  height:100px;
+  line-height:100px;
+}
+#page #footer span{
+  height:100px;
+  line-height:100px;
+  color:#000000;
+  font-family: Arial; 
+  font-size:12px;
+}
+
+/********************End of footer*******************************/
