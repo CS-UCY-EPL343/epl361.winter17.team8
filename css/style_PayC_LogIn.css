@@ -226,3 +226,7 @@ background-size: 100%;
  margin-left: 35%;
  color: #E0690B;
 }
+
+#page #body #content ul#featured #doesntexist{
+  margin-left: 130px;
+}
