@@ -1,11 +1,64 @@
 <!DOCTYPE html>
-<!-- Website of Dance Academy Cyprus / Costume Borrow-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+<script type="text/json" src="contact.json"> </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 <html>
 <head>
 	<title>Dance Academy Cyprus-Costume Borrow</title>
 	<meta charset="utf-8">
 	<link href="css/style-costume-borrow.css" rel="stylesheet" type="text/css">
 </head>
+
+<body onLoad="buildHtmlTable('#excelDataTable')">
+  <table id="excelDataTable" border="1">
+  </table>
+</body>
+
+<p id="demo"></p>
+
+<script>
+
+var myList  = JSON.parse(data);
+
+// Builds the HTML Table out of myList.
+function buildHtmlTable(selector) {
+  var columns = addAllColumnHeaders(myList, selector);
+
+  for (var i = 0; i < myList.length; i++) {
+    var row$ = $('<tr/>');
+    for (var colIndex = 0; colIndex < columns.length; colIndex++) {
+      var cellValue = myList[i][columns[colIndex]];
+      if (cellValue == null) cellValue = "";
+      row$.append($('<td/>').html(cellValue));
+    }
+    $(selector).append(row$);
+  }
+}
+
+// Adds a header row to the table and returns the set of columns.
+// Need to do union of keys from all records as some records may not contain
+// all records.
+function addAllColumnHeaders(myList, selector) {
+  var columnSet = [];
+  var headerTr$ = $('<tr/>');
+
+  for (var i = 0; i < myList.length; i++) {
+    var rowHash = myList[i];
+    for (var key in rowHash) {
+      if ($.inArray(key, columnSet) == -1) {
+        columnSet.push(key);
+        headerTr$.append($('<th/>').html(key));
+      }
+    }
+  }
+  $(selector).append(headerTr$);
+
+  return columnSet;
+}
+</script>
+
 <body>
 	<div id="background">
 		<div id="page">
@@ -26,23 +79,23 @@
 							<div id="content">
 								<ul id="featured">
 									<li class="primary">
-										<form action="">
+										<form action="./costume_php.php" method="post">
 											<br>&nbsp;&nbsp;&nbsp;
 											<label for="uname">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Student Username:</label>
-											<input type="text" id="stname" name="studentusername" placeholder="Type student username"><br><br>&nbsp;&nbsp;&nbsp;
+											<input type="text" id="stname" name="username" placeholder="Type student username" required><br><br>&nbsp;&nbsp;&nbsp;
 											<label for="cid">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Costume ID:</label>
-											<input type="text" id="lname" name="lastname" placeholder="Type costume ID"><br><br>&nbsp;&nbsp;&nbsp;
+											<input type="text" id="CID" name="costumeID" placeholder="Type costume ID" required><br><br>&nbsp;&nbsp;&nbsp;
 											<label for="dborrow">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date of Borrow:</label>
-											<input type="date" id="dateborrow" value="2017-01-01"><br><br>&nbsp;&nbsp;&nbsp;
+											<input type="date" id="dateborrow" name="dateofborrow" required><br><br>&nbsp;&nbsp;&nbsp;
 											<label for="dreturn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date of Return:</label>
-											<input type="date" id="datereturn" value="2017-01-01"><br><br>
+											<input type="date" id="datereturn" name="dateofreturn" required><br><br>
 											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 											<input type="submit" value="Insert Costume Borrow">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 											<input type="reset" value="Reset">
 										</label>
 									</form>
 									<li class="secondary">
-										<table class="title" align="center" >&nbsp;&nbsp;
+										<table  class="title" align="center" >&nbsp;&nbsp;
 											<tr>
 											<th>Borrowed Costume Table</th>
 										</tr>
@@ -50,45 +103,20 @@
 
 									<table class="records" align="center" >&nbsp;&nbsp;
 										<tr>
-											<th>Student Username</th>
+
+
+
+
+
+
+
+
+											<th id = "demo">Student Username</th>
 											<th>Costume ID</th>
 											<th>Date of Borrow</th>
 											<th>Date of Return</th>
 										</tr>
-										<tr>
-											<td>.</td>
-											<td>.</td>
-											<td>.</td>
-											<td>.</td>
-										</tr>
-										<tr>
-											<td>.</td>
-											<td>.</td>
-											<td>.</td>
-											<td>.</td>
-										</tr><tr>
-											<td>.</td>
-											<td>.</td>
-											<td>.</td>
-											<td>.</td>
-										</tr><tr>
-											<td>.</td>
-											<td>.</td>
-											<td>.</td>
-											<td>.</td>
-										</tr><tr>
-											<td>.</td>
-											<td>.</td>
-											<td>.</td>
-											<td>.</td>
-										</tr><tr>
-											<td>.</td>
-											<td>.</td>
-											<td>.</td>
-											<td>.</td>
-										</tr>
 									</table>
-									<br>
 								</li>
 							</ul>
 						</div>
