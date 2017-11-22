@@ -190,6 +190,13 @@ input[type='checkbox']:checked {
 #page #body #content ul#featured #payclasseshead{
   margin-top:100px;
   color: #E0690B;
+  margin-left: 245px;
+}
+
+#page #body #content ul#featured #payclassesheads{
+  margin-top:100px;
+  color: #E0690B;
+  margin-left: 70px;
 }
 /********************End of head*******************************/
 
@@ -210,8 +217,25 @@ background-size: 100%;
 
 /********************Start of submit button*******************************/
 #page #body #content ul#featured #submitbutton{
-  margin-top:90px;
+
+  margin-top:70px;
   margin-left: 130px;
+
+}
+
+input[type=submit] {
+    background-color: #F55A39;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+input[type=submit]:hover {
+    background-color: #E78F4A;
 }
 /********************End of submit button*******************************/
 
@@ -229,4 +253,10 @@ background-size: 100%;
 
 #page #body #content ul#featured #doesntexist{
   margin-left: 130px;
+}
+
+#page #body #content ul#featured #total_form{
+
+  margin-left: 230px;
+
 }
