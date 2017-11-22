@@ -1,0 +1,452 @@
+ /** Website template by freewebsitetemplates.com **/
+ body { 
+      margin:0;
+			padding:0;
+			font-family: Helvetica, Arial, Verdana, sans-serif; 
+			font-size: 14px; 
+			line-height: 25px; 
+			color:#fff; 
+			text-align: left; 
+			background:url('../images/bg-body.jpg');  
+	  }
+	
+	
+	#background{
+	 background: url("../images/logo.jpg"); 
+	background-position: center top; 
+	background-repeat:no-repeat; 
+	}
+		
+#page #header{
+   
+	height:425px;
+	margin:0 auto;
+	width:960px;
+}
+
+#page #body{
+  width:960px;
+  margin:0 auto;
+  overflow: auto;
+}
+
+/***********Start of Sidebar Style*******************/
+
+#page #body #sidebar{
+  width:140px;
+  float:left;
+  margin:56px 0 0 0;
+}
+
+#page #body #sidebar ul.navigation{
+  list-style-type:none;
+  margin:65px 0 0 0;
+  padding:0;
+}
+
+ ul.navigation li{
+  width:auto;
+  padding: 10px  0;
+  margin-top:-7px;
+  height:auto;
+}
+
+#page #body #sidebar ul.navigation li a{
+  text-decoration:none;
+  padding: 10px  10px 10px  10px;
+  background-color:#232323;
+  color:#ffffff;
+  font-size:17px;
+  width:auto;
+  height:auto;
+  font-family:Helvetica;
+  
+}
+
+
+#page #body #sidebar ul.navigation li a#odd{
+  height:50px; 
+  width:100px; 
+  display:inline-block; 
+  margin-top:-10px; 
+  margin-bottom:-10px;
+}
+
+
+#page #body #sidebar .connect{
+  width:100px;
+  height:65px;
+  background-color:#242424;
+  text-align:center;
+} /*connect to facebook*/
+
+#page #body #sidebar .connect span{
+  font-style:italic;
+  display:block;
+  color:#ffffff;
+  margin:5px 0;
+  padding-top:5px;
+}
+
+#page #body #sidebar .connect a{
+  text-decoration:none;
+}
+#page #body #sidebar .connect a.facebook{
+  display:inline-block;
+  background: url("../images/icon.gif"); 
+  background-position: 0 0; width: 20px; height: 19px;
+  background-repeat:no-repeat;   
+  width:20px;
+  height:19px;
+}
+#page #body #sidebar .connect a.facebook:hover{
+opacity:0.4;
+filter:alpha(opacity=40);
+
+}
+
+
+
+/***********End of Sidebar Style*******************/
+
+
+#page #body #content{
+  width:790px;
+  float:left;
+  overflow:visible;
+} /* view all the context of the page*/
+
+
+/************* Start of Main Part********************/
+#page #body #content ul#featured {
+  list-style-type:none;
+  margin:56px 0 0 0;
+  padding:0;  
+  
+} /* first photo of homepage*/
+
+#page #body #content ul#featured li.first{
+   background: url("../images/bg-belly.jpg"); 
+   background-position: right; 
+   background-repeat:no-repeat; 
+   margin-right: 20px;  
+   width:790px;
+   height:578px;
+   list-style-type:none;
+} /*Intro*/
+
+#page #body #content ul#featured li.first p{
+   margin:20px 0 0 37px;
+   padding:0;
+   width:420px;
+   font-family: helvetica; 
+   font-size:16px;
+} /* text of bg-belly photo*/
+
+#page #body #content ul#featured li.first p a{
+   color:#ffffff;
+}
+
+#page #body #content ul#featured li.first ul{
+   list-style-type:none;
+   margin:20px 0 0 20px;
+   padding:0;
+}
+
+#page #body #content ul#featured li.first ul li{
+   list-style-type:none;
+   margin:0;
+   padding:0;
+   background:none;
+   height:40px;
+   width:227px;
+} 
+/************************************************/
+#page #body #content ul#featured li.second{
+   background: url("../images/Program.jpg"); 
+   background-position: left; 
+   background-repeat:no-repeat; 
+   margin-top:-30px; /*to have the space above the image*/
+   margin-bottom:0px;
+   margin-left: -170px;
+   width:790px;
+   height:960px;
+   list-style-type:none;
+}
+
+/************************************************/
+#page #body #content ul#featured li.third{
+   background: url("../images/bg-latin.jpg"); 
+   background-position: right; 
+   background-repeat:no-repeat; 
+   margin-top:-90px; /*to have the space above the image*/
+   margin-bottom:20px; 
+   margin-left: 100px;
+   width:790px;
+   height:285px;
+   list-style-type:none;
+}
+
+#page #body #content ul#featured li.third p{
+   margin:0px 0px 200 60px;
+   text-align: 80px;
+   text-align: left;
+   margin-left: 50px;
+   padding:0;
+   width:480px;
+   color:#ffffff;
+   font-family:helvetica, Arial; 
+   font-size:16px;
+}
+
+#page #body #content ul#featured li.third h1{
+   color:#F5913A;
+   margin-left: 50px;
+}
+
+#page #body #content ul#featured li.third ul li{
+   color:#ffffff;
+   margin-left: 35px;
+  font-size:16px;
+}
+
+/******************************************************************/
+#page #body #content ul#featured li.forth{
+   background-image: url("../images/grey_back.jpg"); 
+   background-position: left; 
+   background-repeat:no-repeat;   
+   margin-top: -40px; /*to have the space above the image*/
+   margin-bottom:20px; 
+   margin-left: -170px;
+   width:790px;
+   height:588px;
+   list-style-type:none;
+}
+
+#page #body #content ul#featured li.forth:hover {
+  background-image: url("../images/nektarios.jpg"); 
+  display: block;
+}
+
+#page #body #content ul#featured li.forth:hover p {
+   display: none;
+}
+#page #body #content ul#featured li.forth:hover h1 {
+   display: none;
+}
+
+#page #body #content ul#featured li.forth p{
+   margin:20px 0px 200 60px;
+   text-align: 80px;
+   text-align: left;
+   padding:0;
+   width:480px;
+   color:#ffffff;
+   font-family:helvetica, Arial; 
+   font-size:16px;
+}
+
+#page #body #content ul#featured li.forth h1{
+   color:#F5913A;
+}
+
+#page #body #content ul#featured li.forth ul{
+   list-style-type:none;
+   margin:20px 0 0 60px;
+   padding:0;
+}
+
+#page #body #content ul#featured li.forth ul li{
+   list-style-type:none;
+   margin-top:20px;
+   padding:0;
+   background:none;
+   height:40px;
+   width:227px;
+}
+/***************************************************/
+
+#page #body #content ul#featured li.fifth{
+   background: url("../images/grey_back.jpg"); 
+   background-position: left; 
+   background-repeat:no-repeat;   
+   margin-top: -20px; /*to have the space above the image*/
+   margin-bottom:20px; 
+   margin-left: 100px;
+   width:790px;
+   height:588px;
+   list-style-type:none;
+}
+#page #body #content ul#featured li.fifth:hover {
+  background-image: url("../images/savvas.jpg"); 
+  display: block;
+}
+
+#page #body #content ul#featured li.fifth:hover p {
+   display: none;
+}
+#page #body #content ul#featured li.fifth:hover h1 {
+   display: none;
+}
+#page #body #content ul#featured li.fifth p{
+   margin:20px 0px 200 60px;
+   text-align: 80px;
+   text-align: left;
+   padding:0;
+   width:470px;
+   color:#ffffff;
+   font-family:helvetica, Arial; 
+   font-size:16px;
+}
+
+#page #body #content ul#featured li.fifth h1{
+   color:#F5913A;
+}
+
+#page #body #content ul#featured li.fifth ul{
+   list-style-type:none;
+   margin:20px 0 0 60px;
+   margin-left: 50px;
+   padding:0;
+}
+
+#page #body #content ul#featured li.fifth ul li{
+   list-style-type:none;
+   margin-top:20px;
+   padding:0;
+   background:none;
+   height:40px;
+   width:227px;
+}
+/******************************************************************/
+#page #body #content ul#featured li.sixth{
+   background-image: url("../images/grey_back.jpg"); 
+   background-position: left; 
+   background-repeat:no-repeat;   
+   margin-top: -20px; /*to have the space above the image*/
+   margin-bottom:20px; 
+   margin-left: -170px;
+   width:790px;
+   height:588px;
+   list-style-type:none;
+}
+
+#page #body #content ul#featured li.sixth:hover {
+  background-image: url("../images/christiana.jpg"); 
+  display: block;
+}
+
+#page #body #content ul#featured li.sixth:hover p {
+   display: none;
+}
+#page #body #content ul#featured li.sixth:hover h1 {
+   display: none;
+}
+
+#page #body #content ul#featured li.sixth p{
+   margin:20px 0px 200 60px;
+   text-align: 80px;
+   text-align: left;
+   padding:0;
+   width:480px;
+   color:#ffffff;
+   font-family:helvetica, Arial; 
+   font-size:16px;
+}
+
+#page #body #content ul#featured li.sixth h1{
+   color:#F5913A;
+}
+
+#page #body #content ul#featured li.sixth ul{
+   list-style-type:none;
+   margin:20px 0 0 60px;
+   padding:0;
+}
+
+#page #body #content ul#featured li.sixth ul li{
+   list-style-type:none;
+   margin-top:20px;
+   padding:0;
+   background:none;
+   height:40px;
+   width:227px;
+}
+
+/***************************************************/
+
+#page #body #content ul#featured li.seventh{
+   background: url("../images/grey_back.jpg"); 
+   background-position: left; 
+   background-repeat:no-repeat;   
+   margin-top: -20px; /*to have the space above the image*/
+   margin-bottom:20px; 
+   margin-left: 100px;
+   width:790px;
+   height:588px;
+   list-style-type:none;
+}
+#page #body #content ul#featured li.seventh:hover {
+  background-image: url("../images/polina.jpg"); 
+  display: block;
+}
+
+#page #body #content ul#featured li.seventh:hover p {
+   display: none;
+}
+#page #body #content ul#featured li.seventh:hover h1 {
+   display: none;
+}
+#page #body #content ul#featured li.seventh p{
+   margin:20px 0px 200 60px;
+   text-align: 80px;
+   text-align: left;
+   padding:0;
+   width:470px;
+   color:#ffffff;
+   font-family:helvetica, Arial; 
+   font-size:16px;
+}
+
+#page #body #content ul#featured li.seventh h1{
+   color:#F5913A;
+}
+
+#page #body #content ul#featured li.seventh ul{
+   list-style-type:none;
+   margin:20px 0 0 60px;
+   margin-left: 50px;
+   padding:0;
+}
+
+#page #body #content ul#featured li.seventh ul li{
+   list-style-type:none;
+   margin-top:20px;
+   padding:0;
+   background:none;
+   height:40px;
+   width:227px;
+}
+
+/************* End of Main Part ********************/
+
+/********************Start of footer*******************************/
+   #page #footer{
+     
+   width:960px;
+   margin:0 auto;
+   text-align:center; 
+   height:100px;
+   line-height:100px;
+   }
+   
+   #page #footer span{
+    height:100px;
+    line-height:100px;
+    color:#ffffff;
+    font-family: Arial; 
+    font-size:12px;
+   }
+/********************End of footer*******************************/
+
+          </li>

@@ -1,0 +1,176 @@
+body { 
+      margin:0;
+			padding:0;
+			font-family: Helvetica, Arial, Verdana, sans-serif; 
+			font-size: 14px; 
+			line-height: 25px; 
+			color:#fff; 
+			text-align: left; 
+			background:url('../images/bg-body.jpg');  
+	  }
+	
+	
+	#background{
+	 background: url("../images/dance.jpg"); 
+	background-position: center top; 
+	background-repeat:no-repeat; 
+	}
+		
+#page #header{
+	height:425px;
+	margin:0 auto;
+	width:960px;
+}
+
+#page #body{
+  width:960px;
+  margin:0 auto;
+  overflow: auto;
+}
+
+/***********Start of Sidebar Style*******************/
+
+#page #body #sidebar{
+  width:140px;
+  float:left;
+  margin:170px 0 0 0;
+}
+
+#page #body #sidebar ul.navigation{
+  list-style-type:none;
+  margin:65px 0 0 0;
+  padding:0;
+}
+
+ ul.navigation li{
+  width:auto;
+  padding: 10px  0;
+  margin-top:-7px;
+  height:auto;
+}
+
+#page #body #sidebar ul.navigation li a{
+  text-decoration:none;
+  padding: 10px  10px 10px  10px;
+  background-color:#232323;
+  color:#ffffff;
+  font-size:17px;
+  width:auto;
+  height:auto;
+  font-family:Helvetica;
+  
+}
+
+
+#page #body #sidebar ul.navigation li a#odd{
+  height:50px; 
+  width:100px; 
+  display:inline-block; 
+  margin-top:-10px; 
+  margin-bottom:-10px;
+}
+
+
+#page #body #sidebar .connect{
+  width:100px;
+  height:65px;
+  background-color:#242424;
+  text-align:center;
+} /*connect to facebook*/
+
+#page #body #sidebar .connect span{
+  font-style:italic;
+  display:block;
+  color:#ffffff;
+  margin:5px 0;
+  padding-top:5px;
+}
+
+#page #body #sidebar .connect a{
+  text-decoration:none;
+}
+#page #body #sidebar .connect a.facebook{
+  display:inline-block;
+  background: url("../images/icon.gif"); 
+  background-position: 0 0; width: 20px; height: 19px;
+  background-repeat:no-repeat;   
+  width:20px;
+  height:19px;
+}
+#page #body #sidebar .connect a.facebook:hover{
+opacity:0.4;
+filter:alpha(opacity=40);
+
+}
+
+
+
+/***********End of Sidebar Style*******************/
+
+
+#page #body #content{
+  width:790px;
+  float:left;
+  overflow:visible;
+} /* view all the context of the page*/
+
+/***********Start of Classes Table Style*******************/
+
+#page #body #content ul#featured li.first table {
+   background: url("../images/grey_back.jpg"); 
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+    color:#ffffff;
+    font-size: 16px;
+}
+#page #body #content ul#featured li.first table h1{
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    color:#E0690B;
+}
+
+#page #body #content ul#featured li.first td, th {
+    border: 1px solid #E78F4A;
+    text-align: center;
+    padding: 8px;
+}
+/*************Start of Submit Button**************/
+
+#page #body #content ul#featured input[type=submit] {
+    background-color: #F55A39;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: center;
+    font-weight: bold;
+    color:#ffffff;
+    font-size: 20px;
+    margin-left: 250px;
+    
+}
+#page #body #content ul#featured input[type=submit]:hover {
+    background-color: #E78F4A;
+  }
+
+/********************Start of footer*******************************/
+   #page #footer{
+     
+   width:960px;
+   margin:0 auto;
+   text-align:center; 
+   height:100px;
+   line-height:100px;
+   }
+   
+   #page #footer span{
+    height:100px;
+    line-height:100px;
+    color:#ffffff;
+    font-family: Arial; 
+    font-size:12px;
+   }
+/********************End of footer*******************************/
+
+          </li>
