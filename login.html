@@ -6,65 +6,102 @@
 	<meta charset="utf-8">
 	<!--<link href="css/style.css" rel="stylesheet" type="text/css">-->
 	<link href="css/style_PayC_LogIn.css" rel="stylesheet" type="text/css">
-	<!--[if IE 6]>
-		<link href="css/ie6.css" rel="stylesheet" type="text/css"> 
-	<![endif]-->
-	<!--[if IE 7]>
-		<link href="css/ie7.css" rel="stylesheet" type="text/css">  
-	<![endif]-->
+	
+	<!-- <script src="http://code.jquery.com/jquery-1.9.1.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
+<script type="text/javascript">
+	function form_validation() {
+		var username = document.getElementById("username").value;
+		var password = document.getElementById("password").value;
+
+
+		document.getElementById("alertUsername").innerHTML = "";
+		document.getElementById("alertPassword").innerHTML = "";
+
+		if((username != '') && (password != '')) {
+
+
+//Start of Ajax Call
+var username = document.getElementById('username').value;
+var password = document.getElementById('password').value;
+var dataString='username='+username+'&password='+password;
+
+$.ajax({
+	type: "post",
+	url: "action.php",
+	data: dataString,
+	cashe:false,
+	success: function(html){
+			// $('#msg').html(html);
+			if (html=="ok") {
+				if((username=="admin")&&(password=="admin123")){
+					window.location.replace('submitting_admin.html'); 
+				}else{
+					window.location.replace('submitting_student.html');
+				}
+				
+			} else {
+				alert ('Username or password does not exist. Please login again!'); 
+			}	
+		}
+	});
+return false;	
+
+//End of Ajax Call
+
+}
+
+}
+
+</script>
 <body>
-<div id="background">
-	<div id="page">
-		<div id="header">
-			<div class="header"> <a id="logo" href="index.html"><img  src="logo.jpg" width="600" alt="Dance Studio" title="Dance Studio"> </a>
+	<div id="background">
+		<div id="page">
+			<div id="header">
+				<div class="header"> <a id="logo" href="index.html"><img  src="logo.jpg" width="700" alt="Dance Studio" title="Dance Studio"> </a>
 
+				</div>
 			</div>
-		</div>
-		<div id="body">
-			<div id="sidebar">
-				<ul class="navigation">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="register.html">Register</a></li>
-					<li><a href="login.html">Log In</a></li>
-				</ul>
-				<div class="connect"> <span>Follow us:</span> <a class="facebook" href="https://www.facebook.com/dance.ac.cy/">&nbsp;</a> </div>
-			</div>
-			<div id="content">
-				<ul id="featured">
-					
-					<div id= "loginform">
-						<br><br><br><br><br>
-						
-					<p><strong>&nbsp;&nbsp;Enter Username:</strong>&nbsp; <input type = "text" name= "username"/> </p>
-						
-					<p><strong>&nbsp;&nbsp;Enter Password:</strong>&nbsp; <input type = "text" name= "password"/> </p>
+			<div id="body">
+				<div id="sidebar">
+					<ul class="navigation">
+						<li><a href="index.html">Home</a></li>
+					</ul>
+					<div class="connect"> <span>Follow us:</span> <a class="facebook" href="https://www.facebook.com/dance.ac.cy/">&nbsp;</a> </div>
+				</div>
+				<div id="content">
+					<ul id="featured">
 
-					<div id= "submitbutton">
-					<a href="submitting.html">
-						&nbsp;&nbsp;<input type="submit" value="Login">
-					</a>
-					</div>
 
-					<div id= "wronghandleoflogin">
-					<a href="login_wrong.html">
-						&nbsp;&nbsp;<input type="submit" value="Wrong">
-					</a>
-					</div>
+						<form id="myform" >
 
-					<br>
-					</div>
+							<div id= "loginform">
+								<br><br><br><br><br>
+								<div id="alertUsername" style="color:red"></div>	
+								<p><strong>&nbsp;&nbsp;Enter Username:</strong>&nbsp; <input type = "text" id="username" name= "username" required /> </p>
+								<div id="alertPassword" style="color:red"></div>
+								<p><strong>&nbsp;&nbsp;Enter Password:</strong>&nbsp; <input type = "password" id="password" name= "password" required /> </p>
 
-					
+								<div id="redirection" style="color:red"></div>
 
+								<div id= "submitbutton">
+									<input type="submit" value="Login" onClick="return form_validation()">
+									<br><br><br>
+								</div>
+
+							</div>
+
+						</form>
+						<p id="msg"></p>
 					<!--
 					<ul class="submission">
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<a href="submitting.html">submit</a>
 					</ul>
-					-->	
-					<!--<form action="/action_page.php">-->
+				-->	
+				<!--<form action="/action_page.php">-->
 
 				</ul>
 			</div>
@@ -72,5 +109,7 @@
 		<div id="footer"> <span> &copy; copyright 2017 &copy;. All rights reserved.</span> </div>
 	</div>
 </div>
+
+
 </body>
 </html>
